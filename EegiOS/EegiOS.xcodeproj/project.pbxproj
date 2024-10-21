@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1388A62CC6F97000B28F14 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1388A42CC6F96000B28F14 /* WatchConnectivity.framework */; };
+		0B1388A82CC6F97000B28F14 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1388A72CC6F97000B28F14 /* WatchKit.framework */; };
+		0B39BB6A2CB5C14100461F25 /* BitCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 0B39BB692CB5C14100461F25 /* BitCollections */; };
+		0B39BB6C2CB5C14100461F25 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 0B39BB6B2CB5C14100461F25 /* Collections */; };
+		0B39BB6E2CB5C14100461F25 /* DequeModule in Frameworks */ = {isa = PBXBuildFile; productRef = 0B39BB6D2CB5C14100461F25 /* DequeModule */; };
+		0B39BB702CB5C14100461F25 /* HashTreeCollections in Frameworks */ = {isa = PBXBuildFile; productRef = 0B39BB6F2CB5C14100461F25 /* HashTreeCollections */; };
+		0B39BB722CB5C14100461F25 /* HeapModule in Frameworks */ = {isa = PBXBuildFile; productRef = 0B39BB712CB5C14100461F25 /* HeapModule */; };
+		0B4ABC192CA32815000BECCB /* HealthDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ABC182CA32815000BECCB /* HealthDataView.swift */; };
+		0B61949F2C9094180034CFE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9799CD2C8ACF5B00EBC892 /* ContentView.swift */; };
+		0B6194A02C90941E0034CFE1 /* EegWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9799CB2C8ACF5B00EBC892 /* EegWatchApp.swift */; };
+		0B6194A12C9094210034CFE1 /* EegiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9799B22C8ACEF300EBC892 /* EegiOSApp.swift */; };
+		0B6194A22C9094250034CFE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9799B42C8ACEF300EBC892 /* ContentView.swift */; };
+		0B6194A42C9099070034CFE1 /* iOSConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6194A32C9099070034CFE1 /* iOSConnectivity.swift */; };
+		0B6194A82C90992C0034CFE1 /* WatchConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6194A72C90992C0034CFE1 /* WatchConnectivity.swift */; };
+		0B6194AD2C90CFBD0034CFE1 /* Spezi in Frameworks */ = {isa = PBXBuildFile; productRef = 0B6194AC2C90CFBD0034CFE1 /* Spezi */; };
+		0B6194AF2C90CFFD0034CFE1 /* Spezi in Frameworks */ = {isa = PBXBuildFile; productRef = 0B6194AE2C90CFFD0034CFE1 /* Spezi */; };
+		0B9799B72C8ACEF400EBC892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9799B62C8ACEF400EBC892 /* Assets.xcassets */; };
+		0B9799BA2C8ACEF400EBC892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9799B92C8ACEF400EBC892 /* Preview Assets.xcassets */; };
+		0B9799BF2C8ACEF400EBC892 /* EegiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B9799BD2C8ACEF400EBC892 /* EegiOS.xcdatamodeld */; };
+		0B9799D02C8ACF5C00EBC892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9799CF2C8ACF5C00EBC892 /* Assets.xcassets */; };
+		0B9799D32C8ACF5C00EBC892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9799D22C8ACF5C00EBC892 /* Preview Assets.xcassets */; };
+		0B9799D62C8ACF5C00EBC892 /* EegWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B9799C92C8ACF5B00EBC892 /* EegWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B9799E32C8AD0DA00EBC892 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B9799E22C8AD0DA00EBC892 /* WatchConnectivity.framework */; };
+		0BCB3C2C2CAF1BE500E08286 /* EegiOSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB3C2B2CAF1BC300E08286 /* EegiOSAppDelegate.swift */; };
+		0BCB3C2E2CAF1C7A00E08286 /* EegWatchAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB3C2D2CAF1C6A00E08286 /* EegWatchAppDelegate.swift */; };
+		0BCB3C302CAF1E0500E08286 /* SpeziHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCB3C2F2CAF1E0500E08286 /* SpeziHealthKit */; };
+		0BCB3C322CAF22A800E08286 /* CustomHealthStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB3C312CAF229700E08286 /* CustomHealthStandard.swift */; };
+		0BCB3C342CAF22E100E08286 /* CustomHealthStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCB3C332CAF22D200E08286 /* CustomHealthStandard.swift */; };
+		0BCB3C372CAF2F4800E08286 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCB3C362CAF2F4800E08286 /* FirebaseAuth */; };
+		0BCB3C392CAF2F4800E08286 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCB3C382CAF2F4800E08286 /* FirebaseCore */; };
+		0BCB3C3B2CAF2F4800E08286 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCB3C3A2CAF2F4800E08286 /* FirebaseDatabase */; };
+		0BCB3C3D2CAF2F4800E08286 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCB3C3C2CAF2F4800E08286 /* FirebaseFirestore */; };
+		0BCB3C3F2CAF2F7600E08286 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCB3C3E2CAF2F7600E08286 /* FirebaseAuth */; };
+		0BCB3C412CAF2F7600E08286 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCB3C402CAF2F7600E08286 /* FirebaseCore */; };
+		0BDA77162C987EF500C36C5D /* SpeziHealthKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0BDA77152C987EF500C36C5D /* SpeziHealthKit */; };
+		0BDA77182C98806200C36C5D /* HealthDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BDA77172C98806200C36C5D /* HealthDataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B9799D42C8ACF5C00EBC892 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B9799A72C8ACEF300EBC892 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B9799C82C8ACF5B00EBC892;
+			remoteInfo = "EegWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B9799DA2C8ACF5C00EBC892 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0B9799D62C8ACF5C00EBC892 /* EegWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B1388A42CC6F96000B28F14 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		0B1388A72CC6F97000B28F14 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		0B4ABC182CA32815000BECCB /* HealthDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataView.swift; sourceTree = "<group>"; };
+		0B4ABC202CA494B4000BECCB /* EegiOSRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EegiOSRelease.entitlements; sourceTree = "<group>"; };
+		0B6194A32C9099070034CFE1 /* iOSConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConnectivity.swift; sourceTree = "<group>"; };
+		0B6194A72C90992C0034CFE1 /* WatchConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivity.swift; sourceTree = "<group>"; };
+		0B9799AF2C8ACEF300EBC892 /* EegiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EegiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9799B22C8ACEF300EBC892 /* EegiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EegiOSApp.swift; sourceTree = "<group>"; };
+		0B9799B42C8ACEF300EBC892 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B9799B62C8ACEF400EBC892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B9799B92C8ACEF400EBC892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B9799BE2C8ACEF400EBC892 /* EegiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EegiOS.xcdatamodel; sourceTree = "<group>"; };
+		0B9799C92C8ACF5B00EBC892 /* EegWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EegWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9799CB2C8ACF5B00EBC892 /* EegWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EegWatchApp.swift; sourceTree = "<group>"; };
+		0B9799CD2C8ACF5B00EBC892 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B9799CF2C8ACF5C00EBC892 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B9799D22C8ACF5C00EBC892 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B9799DB2C8ACFCF00EBC892 /* EegiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EegiOS.entitlements; sourceTree = "<group>"; };
+		0B9799DC2C8ACFEF00EBC892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0B9799DD2C8AD08D00EBC892 /* EegWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "EegWatch Watch App.entitlements"; sourceTree = "<group>"; };
+		0B9799DE2C8AD09200EBC892 /* EegWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "EegWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		0B9799E02C8AD0CB00EBC892 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.5.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		0B9799E22C8AD0DA00EBC892 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		0BCB3C2B2CAF1BC300E08286 /* EegiOSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EegiOSAppDelegate.swift; sourceTree = "<group>"; };
+		0BCB3C2D2CAF1C6A00E08286 /* EegWatchAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EegWatchAppDelegate.swift; sourceTree = "<group>"; };
+		0BCB3C312CAF229700E08286 /* CustomHealthStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHealthStandard.swift; sourceTree = "<group>"; };
+		0BCB3C332CAF22D200E08286 /* CustomHealthStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHealthStandard.swift; sourceTree = "<group>"; };
+		0BDA77172C98806200C36C5D /* HealthDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B9799AC2C8ACEF300EBC892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCB3C3B2CAF2F4800E08286 /* FirebaseDatabase in Frameworks */,
+				0B6194AD2C90CFBD0034CFE1 /* Spezi in Frameworks */,
+				0BCB3C392CAF2F4800E08286 /* FirebaseCore in Frameworks */,
+				0BCB3C302CAF1E0500E08286 /* SpeziHealthKit in Frameworks */,
+				0B39BB702CB5C14100461F25 /* HashTreeCollections in Frameworks */,
+				0B39BB6A2CB5C14100461F25 /* BitCollections in Frameworks */,
+				0B9799E32C8AD0DA00EBC892 /* WatchConnectivity.framework in Frameworks */,
+				0B39BB6C2CB5C14100461F25 /* Collections in Frameworks */,
+				0B39BB6E2CB5C14100461F25 /* DequeModule in Frameworks */,
+				0BCB3C372CAF2F4800E08286 /* FirebaseAuth in Frameworks */,
+				0B39BB722CB5C14100461F25 /* HeapModule in Frameworks */,
+				0BCB3C3D2CAF2F4800E08286 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B9799C62C8ACF5B00EBC892 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6194AF2C90CFFD0034CFE1 /* Spezi in Frameworks */,
+				0BCB3C412CAF2F7600E08286 /* FirebaseCore in Frameworks */,
+				0BDA77162C987EF500C36C5D /* SpeziHealthKit in Frameworks */,
+				0B1388A82CC6F97000B28F14 /* WatchKit.framework in Frameworks */,
+				0BCB3C3F2CAF2F7600E08286 /* FirebaseAuth in Frameworks */,
+				0B1388A62CC6F97000B28F14 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9799A62C8ACEF300EBC892 = {
+			isa = PBXGroup;
+			children = (
+				0B9799B12C8ACEF300EBC892 /* EegiOS */,
+				0B9799CA2C8ACF5B00EBC892 /* EegWatch Watch App */,
+				0B9799B02C8ACEF300EBC892 /* Products */,
+				0B9799DF2C8AD0CA00EBC892 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B9799B02C8ACEF300EBC892 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B9799AF2C8ACEF300EBC892 /* EegiOS.app */,
+				0B9799C92C8ACF5B00EBC892 /* EegWatch Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B9799B12C8ACEF300EBC892 /* EegiOS */ = {
+			isa = PBXGroup;
+			children = (
+				0B4ABC202CA494B4000BECCB /* EegiOSRelease.entitlements */,
+				0B9799DC2C8ACFEF00EBC892 /* Info.plist */,
+				0B9799DB2C8ACFCF00EBC892 /* EegiOS.entitlements */,
+				0B9799B22C8ACEF300EBC892 /* EegiOSApp.swift */,
+				0BCB3C2B2CAF1BC300E08286 /* EegiOSAppDelegate.swift */,
+				0BCB3C312CAF229700E08286 /* CustomHealthStandard.swift */,
+				0B9799B42C8ACEF300EBC892 /* ContentView.swift */,
+				0B6194A32C9099070034CFE1 /* iOSConnectivity.swift */,
+				0B9799B62C8ACEF400EBC892 /* Assets.xcassets */,
+				0B9799BD2C8ACEF400EBC892 /* EegiOS.xcdatamodeld */,
+				0B9799B82C8ACEF400EBC892 /* Preview Content */,
+			);
+			path = EegiOS;
+			sourceTree = "<group>";
+		};
+		0B9799B82C8ACEF400EBC892 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B9799B92C8ACEF400EBC892 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B9799CA2C8ACF5B00EBC892 /* EegWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0B9799DE2C8AD09200EBC892 /* EegWatch-Watch-App-Info.plist */,
+				0B9799DD2C8AD08D00EBC892 /* EegWatch Watch App.entitlements */,
+				0B9799CB2C8ACF5B00EBC892 /* EegWatchApp.swift */,
+				0B6194A72C90992C0034CFE1 /* WatchConnectivity.swift */,
+				0BCB3C2D2CAF1C6A00E08286 /* EegWatchAppDelegate.swift */,
+				0BCB3C332CAF22D200E08286 /* CustomHealthStandard.swift */,
+				0B9799CD2C8ACF5B00EBC892 /* ContentView.swift */,
+				0B4ABC182CA32815000BECCB /* HealthDataView.swift */,
+				0BDA77172C98806200C36C5D /* HealthDataManager.swift */,
+				0B9799CF2C8ACF5C00EBC892 /* Assets.xcassets */,
+				0B9799D12C8ACF5C00EBC892 /* Preview Content */,
+			);
+			path = "EegWatch Watch App";
+			sourceTree = "<group>";
+		};
+		0B9799D12C8ACF5C00EBC892 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B9799D22C8ACF5C00EBC892 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B9799DF2C8AD0CA00EBC892 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B1388A72CC6F97000B28F14 /* WatchKit.framework */,
+				0B1388A42CC6F96000B28F14 /* WatchConnectivity.framework */,
+				0B9799E22C8AD0DA00EBC892 /* WatchConnectivity.framework */,
+				0B9799E02C8AD0CB00EBC892 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B9799AE2C8ACEF300EBC892 /* EegiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9799C22C8ACEF400EBC892 /* Build configuration list for PBXNativeTarget "EegiOS" */;
+			buildPhases = (
+				0B9799AB2C8ACEF300EBC892 /* Sources */,
+				0B9799AC2C8ACEF300EBC892 /* Frameworks */,
+				0B9799AD2C8ACEF300EBC892 /* Resources */,
+				0B9799DA2C8ACF5C00EBC892 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B9799D52C8ACF5C00EBC892 /* PBXTargetDependency */,
+			);
+			name = EegiOS;
+			packageProductDependencies = (
+				0B6194AC2C90CFBD0034CFE1 /* Spezi */,
+				0BCB3C2F2CAF1E0500E08286 /* SpeziHealthKit */,
+				0BCB3C362CAF2F4800E08286 /* FirebaseAuth */,
+				0BCB3C382CAF2F4800E08286 /* FirebaseCore */,
+				0BCB3C3A2CAF2F4800E08286 /* FirebaseDatabase */,
+				0BCB3C3C2CAF2F4800E08286 /* FirebaseFirestore */,
+				0B39BB692CB5C14100461F25 /* BitCollections */,
+				0B39BB6B2CB5C14100461F25 /* Collections */,
+				0B39BB6D2CB5C14100461F25 /* DequeModule */,
+				0B39BB6F2CB5C14100461F25 /* HashTreeCollections */,
+				0B39BB712CB5C14100461F25 /* HeapModule */,
+			);
+			productName = EggiOS;
+			productReference = 0B9799AF2C8ACEF300EBC892 /* EegiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B9799C82C8ACF5B00EBC892 /* EegWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B9799D72C8ACF5C00EBC892 /* Build configuration list for PBXNativeTarget "EegWatch Watch App" */;
+			buildPhases = (
+				0B9799C52C8ACF5B00EBC892 /* Sources */,
+				0B9799C62C8ACF5B00EBC892 /* Frameworks */,
+				0B9799C72C8ACF5B00EBC892 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EegWatch Watch App";
+			packageProductDependencies = (
+				0B6194AE2C90CFFD0034CFE1 /* Spezi */,
+				0BDA77152C987EF500C36C5D /* SpeziHealthKit */,
+				0BCB3C3E2CAF2F7600E08286 /* FirebaseAuth */,
+				0BCB3C402CAF2F7600E08286 /* FirebaseCore */,
+			);
+			productName = "EegWatch Watch App";
+			productReference = 0B9799C92C8ACF5B00EBC892 /* EegWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B9799A72C8ACEF300EBC892 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0B9799AE2C8ACEF300EBC892 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0B9799C82C8ACF5B00EBC892 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0B9799AA2C8ACEF300EBC892 /* Build configuration list for PBXProject "EegiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B9799A62C8ACEF300EBC892;
+			packageReferences = (
+				0B6194AB2C90CFBD0034CFE1 /* XCRemoteSwiftPackageReference "Spezi" */,
+				0BDA77142C987EF500C36C5D /* XCRemoteSwiftPackageReference "SpeziHealthKit" */,
+				0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */,
+			);
+			productRefGroup = 0B9799B02C8ACEF300EBC892 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B9799AE2C8ACEF300EBC892 /* EegiOS */,
+				0B9799C82C8ACF5B00EBC892 /* EegWatch Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B9799AD2C8ACEF300EBC892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9799BA2C8ACEF400EBC892 /* Preview Assets.xcassets in Resources */,
+				0B9799B72C8ACEF400EBC892 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B9799C72C8ACF5B00EBC892 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9799D32C8ACF5C00EBC892 /* Preview Assets.xcassets in Resources */,
+				0B9799D02C8ACF5C00EBC892 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B9799AB2C8ACEF300EBC892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B9799BF2C8ACEF400EBC892 /* EegiOS.xcdatamodeld in Sources */,
+				0BCB3C322CAF22A800E08286 /* CustomHealthStandard.swift in Sources */,
+				0B6194A42C9099070034CFE1 /* iOSConnectivity.swift in Sources */,
+				0B6194A12C9094210034CFE1 /* EegiOSApp.swift in Sources */,
+				0BCB3C2C2CAF1BE500E08286 /* EegiOSAppDelegate.swift in Sources */,
+				0B6194A22C9094250034CFE1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B9799C52C8ACF5B00EBC892 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BCB3C2E2CAF1C7A00E08286 /* EegWatchAppDelegate.swift in Sources */,
+				0B6194A82C90992C0034CFE1 /* WatchConnectivity.swift in Sources */,
+				0B6194A02C90941E0034CFE1 /* EegWatchApp.swift in Sources */,
+				0B61949F2C9094180034CFE1 /* ContentView.swift in Sources */,
+				0BCB3C342CAF22E100E08286 /* CustomHealthStandard.swift in Sources */,
+				0B4ABC192CA32815000BECCB /* HealthDataView.swift in Sources */,
+				0BDA77182C98806200C36C5D /* HealthDataManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B9799D52C8ACF5C00EBC892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B9799C82C8ACF5B00EBC892 /* EegWatch Watch App */;
+			targetProxy = 0B9799D42C8ACF5C00EBC892 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B9799C02C8ACEF400EBC892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B9799C12C8ACEF400EBC892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B9799C32C8ACEF400EBC892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EegiOS/EegiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EegiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = B7UYYYQ267;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EegiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthMonitor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stanford.EegiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B9799C42C8ACEF400EBC892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EegiOS/EegiOSRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EegiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = B7UYYYQ267;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EegiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HealthMonitor;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stanford.EegiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B9799D82C8ACF5C00EBC892 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EegWatch Watch App/EegWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EegWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B7UYYYQ267;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EegWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthMonitor Watch";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your heart rate data to monitor your health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to update your heart rate data to monitor your health.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Stanford.EegiOS;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stanford.EegiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		0B9799D92C8ACF5C00EBC892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EegWatch Watch App/EegWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EegWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = B7UYYYQ267;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "EegWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "HealthMonitor Watch";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs access to your heart rate data to monitor your health.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "This app needs access to update your heart rate data to monitor your health.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.Stanford.EegiOS;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Stanford.EegiOS.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B9799AA2C8ACEF300EBC892 /* Build configuration list for PBXProject "EegiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9799C02C8ACEF400EBC892 /* Debug */,
+				0B9799C12C8ACEF400EBC892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B9799C22C8ACEF400EBC892 /* Build configuration list for PBXNativeTarget "EegiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9799C32C8ACEF400EBC892 /* Debug */,
+				0B9799C42C8ACEF400EBC892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B9799D72C8ACF5C00EBC892 /* Build configuration list for PBXNativeTarget "EegWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B9799D82C8ACF5C00EBC892 /* Debug */,
+				0B9799D92C8ACF5C00EBC892 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+		0B6194AB2C90CFBD0034CFE1 /* XCRemoteSwiftPackageReference "Spezi" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordSpezi/Spezi.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.7.4;
+			};
+		};
+		0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+		0BDA77142C987EF500C36C5D /* XCRemoteSwiftPackageReference "SpeziHealthKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordSpezi/SpeziHealthKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B39BB692CB5C14100461F25 /* BitCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = BitCollections;
+		};
+		0B39BB6B2CB5C14100461F25 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		0B39BB6D2CB5C14100461F25 /* DequeModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = DequeModule;
+		};
+		0B39BB6F2CB5C14100461F25 /* HashTreeCollections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HashTreeCollections;
+		};
+		0B39BB712CB5C14100461F25 /* HeapModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = HeapModule;
+		};
+		0B6194AC2C90CFBD0034CFE1 /* Spezi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B6194AB2C90CFBD0034CFE1 /* XCRemoteSwiftPackageReference "Spezi" */;
+			productName = Spezi;
+		};
+		0B6194AE2C90CFFD0034CFE1 /* Spezi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B6194AB2C90CFBD0034CFE1 /* XCRemoteSwiftPackageReference "Spezi" */;
+			productName = Spezi;
+		};
+		0BCB3C2F2CAF1E0500E08286 /* SpeziHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BDA77142C987EF500C36C5D /* XCRemoteSwiftPackageReference "SpeziHealthKit" */;
+			productName = SpeziHealthKit;
+		};
+		0BCB3C362CAF2F4800E08286 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0BCB3C382CAF2F4800E08286 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		0BCB3C3A2CAF2F4800E08286 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0BCB3C3C2CAF2F4800E08286 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0BCB3C3E2CAF2F7600E08286 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0BCB3C402CAF2F7600E08286 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		0BDA77152C987EF500C36C5D /* SpeziHealthKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BDA77142C987EF500C36C5D /* XCRemoteSwiftPackageReference "SpeziHealthKit" */;
+			productName = SpeziHealthKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0B9799BD2C8ACEF400EBC892 /* EegiOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0B9799BE2C8ACEF400EBC892 /* EegiOS.xcdatamodel */,
+			);
+			currentVersion = 0B9799BE2C8ACEF400EBC892 /* EegiOS.xcdatamodel */;
+			path = EegiOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0B9799A72C8ACEF300EBC892 /* Project object */;
+}
