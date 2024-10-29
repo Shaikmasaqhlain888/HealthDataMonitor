@@ -23,6 +23,16 @@
 		0B6194A82C90992C0034CFE1 /* WatchConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6194A72C90992C0034CFE1 /* WatchConnectivity.swift */; };
 		0B6194AD2C90CFBD0034CFE1 /* Spezi in Frameworks */ = {isa = PBXBuildFile; productRef = 0B6194AC2C90CFBD0034CFE1 /* Spezi */; };
 		0B6194AF2C90CFFD0034CFE1 /* Spezi in Frameworks */ = {isa = PBXBuildFile; productRef = 0B6194AE2C90CFFD0034CFE1 /* Spezi */; };
+		0B860FB22CD1688A005AABFE /* SpeziFirebaseAccount in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FB12CD1688A005AABFE /* SpeziFirebaseAccount */; };
+		0B860FB42CD1688A005AABFE /* SpeziFirebaseAccountStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FB32CD1688A005AABFE /* SpeziFirebaseAccountStorage */; };
+		0B860FB62CD1688A005AABFE /* SpeziFirebaseConfiguration in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FB52CD1688A005AABFE /* SpeziFirebaseConfiguration */; };
+		0B860FB82CD1688A005AABFE /* SpeziFirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FB72CD1688A005AABFE /* SpeziFirebaseStorage */; };
+		0B860FBA2CD1688A005AABFE /* SpeziFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FB92CD1688A005AABFE /* SpeziFirestore */; };
+		0B860FBC2CD168DE005AABFE /* SpeziFirebaseAccount in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FBB2CD168DE005AABFE /* SpeziFirebaseAccount */; };
+		0B860FBE2CD168DE005AABFE /* SpeziFirebaseAccountStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FBD2CD168DE005AABFE /* SpeziFirebaseAccountStorage */; };
+		0B860FC02CD168DE005AABFE /* SpeziFirebaseConfiguration in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FBF2CD168DE005AABFE /* SpeziFirebaseConfiguration */; };
+		0B860FC22CD168DE005AABFE /* SpeziFirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FC12CD168DE005AABFE /* SpeziFirebaseStorage */; };
+		0B860FC42CD168DE005AABFE /* SpeziFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0B860FC32CD168DE005AABFE /* SpeziFirestore */; };
 		0B9799B72C8ACEF400EBC892 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9799B62C8ACEF400EBC892 /* Assets.xcassets */; };
 		0B9799BA2C8ACEF400EBC892 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B9799B92C8ACEF400EBC892 /* Preview Assets.xcassets */; };
 		0B9799BF2C8ACEF400EBC892 /* EegiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B9799BD2C8ACEF400EBC892 /* EegiOS.xcdatamodeld */; };
@@ -73,7 +83,6 @@
 		0B1388A42CC6F96000B28F14 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		0B1388A72CC6F97000B28F14 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
 		0B4ABC182CA32815000BECCB /* HealthDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataView.swift; sourceTree = "<group>"; };
-		0B4ABC202CA494B4000BECCB /* EegiOSRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EegiOSRelease.entitlements; sourceTree = "<group>"; };
 		0B6194A32C9099070034CFE1 /* iOSConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConnectivity.swift; sourceTree = "<group>"; };
 		0B6194A72C90992C0034CFE1 /* WatchConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivity.swift; sourceTree = "<group>"; };
 		0B9799AF2C8ACEF300EBC892 /* EegiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EegiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,14 +116,19 @@
 			files = (
 				0BCB3C3B2CAF2F4800E08286 /* FirebaseDatabase in Frameworks */,
 				0B6194AD2C90CFBD0034CFE1 /* Spezi in Frameworks */,
+				0B860FB22CD1688A005AABFE /* SpeziFirebaseAccount in Frameworks */,
 				0BCB3C392CAF2F4800E08286 /* FirebaseCore in Frameworks */,
 				0BCB3C302CAF1E0500E08286 /* SpeziHealthKit in Frameworks */,
+				0B860FB82CD1688A005AABFE /* SpeziFirebaseStorage in Frameworks */,
 				0B39BB702CB5C14100461F25 /* HashTreeCollections in Frameworks */,
 				0B39BB6A2CB5C14100461F25 /* BitCollections in Frameworks */,
 				0B9799E32C8AD0DA00EBC892 /* WatchConnectivity.framework in Frameworks */,
+				0B860FB62CD1688A005AABFE /* SpeziFirebaseConfiguration in Frameworks */,
 				0B39BB6C2CB5C14100461F25 /* Collections in Frameworks */,
 				0B39BB6E2CB5C14100461F25 /* DequeModule in Frameworks */,
+				0B860FBA2CD1688A005AABFE /* SpeziFirestore in Frameworks */,
 				0BCB3C372CAF2F4800E08286 /* FirebaseAuth in Frameworks */,
+				0B860FB42CD1688A005AABFE /* SpeziFirebaseAccountStorage in Frameworks */,
 				0B39BB722CB5C14100461F25 /* HeapModule in Frameworks */,
 				0BCB3C3D2CAF2F4800E08286 /* FirebaseFirestore in Frameworks */,
 			);
@@ -125,9 +139,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B6194AF2C90CFFD0034CFE1 /* Spezi in Frameworks */,
+				0B860FBE2CD168DE005AABFE /* SpeziFirebaseAccountStorage in Frameworks */,
+				0B860FBC2CD168DE005AABFE /* SpeziFirebaseAccount in Frameworks */,
 				0BCB3C412CAF2F7600E08286 /* FirebaseCore in Frameworks */,
 				0BDA77162C987EF500C36C5D /* SpeziHealthKit in Frameworks */,
+				0B860FC02CD168DE005AABFE /* SpeziFirebaseConfiguration in Frameworks */,
 				0B1388A82CC6F97000B28F14 /* WatchKit.framework in Frameworks */,
+				0B860FC42CD168DE005AABFE /* SpeziFirestore in Frameworks */,
+				0B860FC22CD168DE005AABFE /* SpeziFirebaseStorage in Frameworks */,
 				0BCB3C3F2CAF2F7600E08286 /* FirebaseAuth in Frameworks */,
 				0B1388A62CC6F97000B28F14 /* WatchConnectivity.framework in Frameworks */,
 			);
@@ -158,7 +177,6 @@
 		0B9799B12C8ACEF300EBC892 /* EegiOS */ = {
 			isa = PBXGroup;
 			children = (
-				0B4ABC202CA494B4000BECCB /* EegiOSRelease.entitlements */,
 				0B9799DC2C8ACFEF00EBC892 /* Info.plist */,
 				0B9799DB2C8ACFCF00EBC892 /* EegiOS.entitlements */,
 				0B9799B22C8ACEF300EBC892 /* EegiOSApp.swift */,
@@ -248,6 +266,11 @@
 				0B39BB6D2CB5C14100461F25 /* DequeModule */,
 				0B39BB6F2CB5C14100461F25 /* HashTreeCollections */,
 				0B39BB712CB5C14100461F25 /* HeapModule */,
+				0B860FB12CD1688A005AABFE /* SpeziFirebaseAccount */,
+				0B860FB32CD1688A005AABFE /* SpeziFirebaseAccountStorage */,
+				0B860FB52CD1688A005AABFE /* SpeziFirebaseConfiguration */,
+				0B860FB72CD1688A005AABFE /* SpeziFirebaseStorage */,
+				0B860FB92CD1688A005AABFE /* SpeziFirestore */,
 			);
 			productName = EggiOS;
 			productReference = 0B9799AF2C8ACEF300EBC892 /* EegiOS.app */;
@@ -271,6 +294,11 @@
 				0BDA77152C987EF500C36C5D /* SpeziHealthKit */,
 				0BCB3C3E2CAF2F7600E08286 /* FirebaseAuth */,
 				0BCB3C402CAF2F7600E08286 /* FirebaseCore */,
+				0B860FBB2CD168DE005AABFE /* SpeziFirebaseAccount */,
+				0B860FBD2CD168DE005AABFE /* SpeziFirebaseAccountStorage */,
+				0B860FBF2CD168DE005AABFE /* SpeziFirebaseConfiguration */,
+				0B860FC12CD168DE005AABFE /* SpeziFirebaseStorage */,
+				0B860FC32CD168DE005AABFE /* SpeziFirestore */,
 			);
 			productName = "EegWatch Watch App";
 			productReference = 0B9799C92C8ACF5B00EBC892 /* EegWatch Watch App.app */;
@@ -308,6 +336,7 @@
 				0BDA77142C987EF500C36C5D /* XCRemoteSwiftPackageReference "SpeziHealthKit" */,
 				0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				0B39BB682CB5C14100461F25 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				0B860FB02CD1688A005AABFE /* XCRemoteSwiftPackageReference "SpeziFirebase" */,
 			);
 			productRefGroup = 0B9799B02C8ACEF300EBC892 /* Products */;
 			projectDirPath = "";
@@ -689,6 +718,14 @@
 				minimumVersion = 1.7.4;
 			};
 		};
+		0B860FB02CD1688A005AABFE /* XCRemoteSwiftPackageReference "SpeziFirebase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanfordSpezi/SpeziFirebase/";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.4";
+			};
+		};
 		0BCB3C352CAF2F4800E08286 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -742,6 +779,51 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0B6194AB2C90CFBD0034CFE1 /* XCRemoteSwiftPackageReference "Spezi" */;
 			productName = Spezi;
+		};
+		0B860FB12CD1688A005AABFE /* SpeziFirebaseAccount */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B860FB02CD1688A005AABFE /* XCRemoteSwiftPackageReference "SpeziFirebase" */;
+			productName = SpeziFirebaseAccount;
+		};
+		0B860FB32CD1688A005AABFE /* SpeziFirebaseAccountStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B860FB02CD1688A005AABFE /* XCRemoteSwiftPackageReference "SpeziFirebase" */;
+			productName = SpeziFirebaseAccountStorage;
+		};
+		0B860FB52CD1688A005AABFE /* SpeziFirebaseConfiguration */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B860FB02CD1688A005AABFE /* XCRemoteSwiftPackageReference "SpeziFirebase" */;
+			productName = SpeziFirebaseConfiguration;
+		};
+		0B860FB72CD1688A005AABFE /* SpeziFirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B860FB02CD1688A005AABFE /* XCRemoteSwiftPackageReference "SpeziFirebase" */;
+			productName = SpeziFirebaseStorage;
+		};
+		0B860FB92CD1688A005AABFE /* SpeziFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B860FB02CD1688A005AABFE /* XCRemoteSwiftPackageReference "SpeziFirebase" */;
+			productName = SpeziFirestore;
+		};
+		0B860FBB2CD168DE005AABFE /* SpeziFirebaseAccount */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpeziFirebaseAccount;
+		};
+		0B860FBD2CD168DE005AABFE /* SpeziFirebaseAccountStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpeziFirebaseAccountStorage;
+		};
+		0B860FBF2CD168DE005AABFE /* SpeziFirebaseConfiguration */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpeziFirebaseConfiguration;
+		};
+		0B860FC12CD168DE005AABFE /* SpeziFirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpeziFirebaseStorage;
+		};
+		0B860FC32CD168DE005AABFE /* SpeziFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SpeziFirestore;
 		};
 		0BCB3C2F2CAF1E0500E08286 /* SpeziHealthKit */ = {
 			isa = XCSwiftPackageProductDependency;

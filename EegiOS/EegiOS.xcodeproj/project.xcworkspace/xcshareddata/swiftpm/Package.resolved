@@ -1,5 +1,5 @@
 {
-  "originHash" : "92680c655ea2f34c440e7296ca025f81671db7aebc284b767b98954a71e83d7e",
+  "originHash" : "57568ecebe6bada4fceff8267af31129666f84af5d419533c2ff0e83e30bd623",
   "pins" : [
     {
       "identity" : "abseil-cpp-binary",
@@ -119,6 +119,24 @@
       }
     },
     {
+      "identity" : "speziaccount",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StanfordSpezi/SpeziAccount",
+      "state" : {
+        "revision" : "397a55a7b0f108088d3db510ee48fc974a322c87",
+        "version" : "2.0.0-beta.8"
+      }
+    },
+    {
+      "identity" : "spezifirebase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StanfordSpezi/SpeziFirebase",
+      "state" : {
+        "revision" : "5aae93f567091b29f7683863baa2241f7c95290d",
+        "version" : "2.0.0-beta.4"
+      }
+    },
+    {
       "identity" : "spezifoundation",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/StanfordSpezi/SpeziFoundation",
@@ -134,6 +152,24 @@
       "state" : {
         "revision" : "fbdec78fcb2f90d6338f1968e21dd11fbee65070",
         "version" : "0.6.0"
+      }
+    },
+    {
+      "identity" : "spezistorage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StanfordSpezi/SpeziStorage",
+      "state" : {
+        "revision" : "60962375bbce7cc0599bc3da4ebda08231922371",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "speziviews",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/StanfordSpezi/SpeziViews",
+      "state" : {
+        "revision" : "427f4f3a7acb0e00ea11c4c3ca7b60e36d2557a0",
+        "version" : "1.6.0"
       }
     },
     {
@@ -161,6 +197,15 @@
       "state" : {
         "revision" : "ebc7251dd5b37f627c93698e4374084d98409633",
         "version" : "1.28.2"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftlang/swift-syntax",
+      "state" : {
+        "revision" : "2bc86522d115234d1f588efe2bcb4ce4be8f8b82",
+        "version" : "510.0.3"
       }
     },
     {
